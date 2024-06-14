@@ -1,6 +1,6 @@
 # Hyperspectral-Image-Classification
 学校的大作业，大创打基础练手项目。最大的感想是从0开始完成一个项目还是非常困难的，故把我这个低水平代码放上来供大家参考。
-#使用说明
+# 使用说明
 1.数据集下载链接：https://pan.baidu.com/s/1jMvtSPEVoFp07M4mOOyo3Q 提取码：gt6d，包含IndianPines，Houston，Pavia
 2.配置好项目所需要的python环境，将数据集下载好放置在根目录的datasets文件夹下。
 3.使用python自带的可视化方法会存在精度的问题，对于Houston和Pavia这种比较大的数据集会边缘模糊，建议将最终的结果导出成mat文件，与所对应的colormap一并拿到matlab当中使用如下代码可视化：
